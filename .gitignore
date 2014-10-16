@@ -1,3 +1,9 @@
+# eclipse
+.project
+.classpath
+.settings/
+
+# maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
