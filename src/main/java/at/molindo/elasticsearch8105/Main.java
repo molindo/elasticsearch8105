@@ -45,7 +45,7 @@ public class Main implements Runnable, AutoCloseable {
 
 	public static void main(String[] args) {
 
-		boolean wait = ArrayUtils.empty(args) || Boolean.parseBoolean(args[0]);
+		boolean wait = !ArrayUtils.empty(args) && Boolean.parseBoolean(args[0]);
 		try (Main main = new Main(wait)) {
 			main.run();
 		}
