@@ -33,7 +33,7 @@ public class Main implements Runnable, AutoCloseable {
 	public static final File DIR = new File(
 			SystemProperty.JAVA_IO_TMPDIR.getFile(), "elasticsearch8105");
 
-	public static final String INDEX = "geonames";
+	public static final String INDEX = "foobar";
 
 	static {
 		DIR.mkdirs();
